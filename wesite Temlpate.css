@@ -1,0 +1,292 @@
+.btn{
+    margin-left: 250px;
+   color: white;
+}
+a:hover{
+text-decoration: none;
+}
+#fm{
+    border-radius: 100px;
+}
+#in{
+    border-radius: 100px;
+    width:820px;
+    height: 70px;
+
+}
+.footer-area{
+    background-color: rgb(3, 5, 22);
+    color: white;
+    height: 300px;
+    align-items: center;
+    padding-top: 50px;
+   
+}
+
+.container .logo{
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 70px;
+}
+.copy{
+    display: block;
+   display: inline-block;
+
+}
+#ship:hover{
+   background-color: teal;
+}
+li a{
+    text-decoration: none;
+}
+.section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head:after{
+    background:rgb(96, 161, 93);
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+#header{
+    background-image: url(./pics/pic2.jpg);
+color: #fff;
+background: #282542;
+background-repeat: no-repeat;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 4px;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+ color: #fff;
+ padding: 15px 10px;
+ display: block;
+ font-size: 20px;
+}
+#menu li a:hover{
+    color: orange;
+}
+
+#menu li a:hover{
+background:   #181627;
+;
+}
+#banner{
+    background-image: url(./pics/pic2.jpg);
+    background: #282542;
+    background-size: cover;
+    height: 300px;
+}
+.banner-tittle {
+    padding-top: 5rem;
+    
+}
+p{
+    padding-left:500px;
+    color: rgb(255, 110, 6);
+}
+#h{
+    font-size: 50px;
+}
+h3{
+    color:#fff;
+   padding-left:390px;
+   font-size: 100px;
+}
+
+.banner-tittle h1{
+    /* background: rgba(255, 255, 255, 0.8); */
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-tittle p.lead{
+    color: #fff;
+    background: rgba(231, 76en, 60, 0.6);
+padding-bottom:  10px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i.fa{
+    color: #c0392b;   
+}
+#testimonails{
+    color: #fff;
+    text-align: center;
+    background: url('./pics/pic2.jpg')no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative; 
+}
+#testimonails input{
+    outline: none;
+    border: none;text-align: center;
+}
+
+#testimonails:before{
+    background: rgba(52, 73, 94, 0.7);
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 50px;
+}
+#testimonails img{
+    border-radius: 50%;
+}
+.news-post img{
+    width: 70%;
+    height: 100px;
+    margin-bottom:10px ;
+}
+.news-post h3{
+font-size: 1.35rem;
+color: #c0392b
+}
+.news-post h3 a{
+    color: #c0392b
+    
+}
+
+.post-date{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.post-date:before{
+    content: "\f073";
+    font-family:fontAwesome;
+    padding-right: 5px;
+    padding-right: 5px;
+}
+
+a.Readmore{
+    font-size: 14px;
+    color: #e74c3c;
+}
+
+a.Readmore{
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-left: 5px;
+}
+
+#footer-slide{
+    color: #fff;
+    background: #34495e;
+    padding: 20px 0;
+}
+
+#footer{
+    content: "";
+    background: #fff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+
+.footer-wideget{
+    color: #fff;
+}
+
+.latest-news{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.latest-news li{
+    margin-bottom: 3px;
+}
+
+.latest-news li::before{
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-right: 5px;  
+}
+
+#footer{
+    color: #fff;
+    background: #2c3e50;
+    padding: 10px 0;
+}
+
+#social-icons{
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#social-icons li{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+#social-icons li a{
+    color:rebeccapurple;
+    font-size: 23px;
+}
+
+@media (max-width: 992px){
+    .news-post{
+        margin-bottom: 30px;
+}
+@media (max-width: 768px){
+    #logo{
+        text-align: center;
+        margin: 10px 0;
+    }
+    #menu{
+        text-align: center;
+    }
+    .banner-tittle h1{
+       font-size: 1.7rem;
+    }
+    .banner-tittle {
+        padding-top: 0rem;
+    }
+    .section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .testimonials{
+        text-align: center;
+        margin-bottom: 30px;
+   }
+   .service-box{
+       margin-top: 30px;
+   }
+   
+   }
+   .footer-widget {
+       margin-bottom: 20px;
+   }
+   #footer{
+       text-align: center;
+   }
+   #social-icons{
+       margin-top: 10px;
+
+}}
